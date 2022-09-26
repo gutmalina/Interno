@@ -8,6 +8,6 @@
 * файловая структура по БЭМ
 
 ### Ссылки:
-:mag_right: [Открыть проект](https://gutmalina.github.io/Interno/)
-:pushpin:   [Макет в Figma](https://www.figma.com/file/XI4lCzveH6gQaCGNPPKWDV/Interno-%2B?node-id=2%3A39)
+* :mag_right: [Открыть проект](https://gutmalina.github.io/Interno/)
+* :pushpin:   [Макет в Figma](https://www.figma.com/file/XI4lCzveH6gQaCGNPPKWDV/Interno-%2B?node-id=2%3A39)
 
