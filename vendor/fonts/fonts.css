@@ -1,0 +1,27 @@
+/*Шрифт Jost Regular & Regular Italic*/
+@font-face {
+  font-family: "Jost";
+  font-weight: 400;
+  src: url("../fonts/Jost.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Jost";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../fonts/Jost-Italic.ttf") format("ttf");
+}
+
+/*Шрифт DM Serif Display Regular & Regular Italic*/
+@font-face {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  src: url("../fonts/DMSerifDisplay-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../fonts/DMSerifDisplay-Italic.ttf") format("ttf");
+}
