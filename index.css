@@ -338,6 +338,7 @@
   display: flex;
   background: #F4F0EC;
   padding: 140px 105px;
+  margin-bottom: 143px;
 }
 .success__card {
   border-right: 1px solid #CDA274;
@@ -362,4 +363,121 @@
   text-align: center;
   letter-spacing: 0.22px;
   margin-bottom: 10px;
+}
+
+.blogs__title{
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.22px;
+  margin-bottom: 21px;
+}
+.blogs__subtitle{
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.22px;
+  margin: 0px 426px 70px;
+}
+.blogs__group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 41px 20px;
+  margin: 0 120px;
+}
+.blogs__card {
+  border: 1px solid #E7E7E7;
+  border-radius: 62px;
+}
+.blogs__visual{
+  margin: 20px 20px 16px;
+  display: flex;
+  position: relative;
+}
+.blogs {
+  margin: 0 auto 140px;
+}
+.blogs__figcaption {
+  position: absolute;
+  bottom: 28px;
+  left: 24px;
+  background: #FFFFFF;
+  border-radius: 8px 8px 8px 0px;
+  font-size: 15px;
+  line-height: 160%;
+  letter-spacing: 0.22px;
+  padding: 12px 10px;
+}
+.blogs__container{
+  margin: 0 20px 38px;
+}
+.blogs__card_title {
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+.blogs__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.blogs__card_subtitle {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+.btn__size_small {
+  width: 52px;
+  height: 52px;
+}
+
+.contact {
+  background: #292F36;
+  border-radius: 70px;
+  margin: 0 120px 140px;
+  padding-top: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact__title {
+  font-size: 50px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.contact__subtitle {
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #FFFFFF;
+  margin-bottom: 29px;
+}
+
+.btn__type_contact {
+  width: 241px;
+  height: 71px;
+  text-align: start;
+  padding-left: 37px;
+  margin-bottom: 97px;
+  margin-right: 12px;
+}
+.btn__style_ligth {
+  background: #CDA274;
+  border: 2px solid #CDA274;
+  box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 1.1px;
+  color: #FFFFFF;
+  background-image: url(./images/btn__contact.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
