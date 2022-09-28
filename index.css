@@ -13,6 +13,7 @@
 .header{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 26px 120px 0;
   margin-bottom: 30px;
 }
@@ -20,28 +21,33 @@
 .header__logo{
   width: 177px;
   height: 50px;
-  margin-right: 505px;
 }
 
 .header__menu{
-  padding-top: 4px;
+  padding-top: 5px;
+}
+.header__list{
+  display: flex;
+  align-items: center;
+}
+.list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.header__menu_item{
+.header__item{
   font-family: Jost, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #292F36;
-  margin-right: 39px;
+  letter-spacing: 0.7px;
   font-size: 20px;
   line-height: 150%;
+  color: #292F36;
+  margin-left: 38px;
 }
 
-.header__menu_item:last-of-type{
-  margin-right: 0;
-}
-
-.header__menu_item:hover{
+.header__item:hover{
   color: #CDA274;
 }
 
@@ -98,7 +104,7 @@
   margin-bottom: 100px;
 }
 
-.lead__group{
+.lead__container{
   position: absolute;
   left: 120px;
   top: 188px;
@@ -143,7 +149,7 @@
 }
 
 .services__subtitle{
-  margin: 0 42px 68px;
+  margin: 0 43px 68px;
   font-size: 22px;
   line-height: 150%;
   text-align: center;
@@ -180,7 +186,7 @@
   font-size: 50px;
   line-height: 130%;
   letter-spacing: 0.22px;
-  margin-top: 39px;
+  margin-top: 40px;
   margin-bottom: 43px;
 }
 
@@ -193,8 +199,7 @@
 .aboutUs__contact {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 49px;
 }
 .aboutUs__contact_img {
   margin-right: 20px;
@@ -203,6 +208,7 @@
 .about__list{
   display: flex;
   flex-direction: column;
+  margin-top: 5px;
 }
 .aboutUs__contact_subtitle {
   font-size: 24px;
@@ -225,7 +231,7 @@
   border-radius: 70px;
 }
 .reviews__title {
-  margin: 102px 360px 48px;
+  margin: 104px 360px 46px;
   font-size: 45px;
   line-height: 130%;
   text-align: center;
@@ -272,9 +278,12 @@
 }
 
 .companies {
+  margin: 0 168px 109px;
+}
+.companies__list{
   display: flex;
-  margin: 0 168px 113px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .projects {
@@ -306,7 +315,7 @@
   width: 590px;
   height: 661px;
   border-radius: 0px 80px 0px 0px;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 .projects__figcaption{
   display: flex;
@@ -337,7 +346,7 @@
 .success {
   display: flex;
   background: #F4F0EC;
-  padding: 140px 105px;
+  padding: 139px 103px;
   margin-bottom: 143px;
 }
 .success__card {
@@ -390,23 +399,22 @@
   border-radius: 62px;
 }
 .blogs__visual{
-  margin: 20px 20px 16px;
+  margin: 20px 20px 15px;
   display: flex;
   position: relative;
 }
 .blogs {
-  margin: 0 auto 140px;
+  margin: 0 auto 142px;
 }
 .blogs__figcaption {
   position: absolute;
-  bottom: 28px;
+  bottom: 30px;
   left: 24px;
   background: #FFFFFF;
   border-radius: 8px 8px 8px 0px;
   font-size: 15px;
   line-height: 160%;
-  letter-spacing: 0.22px;
-  padding: 12px 10px;
+  padding: 9px 12px;
 }
 .blogs__container{
   margin: 0 20px 38px;
@@ -415,7 +423,7 @@
   font-size: 25px;
   line-height: 140%;
   letter-spacing: 0.5px;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 .blogs__description {
   display: flex;
@@ -436,8 +444,8 @@
 .contact {
   background: #292F36;
   border-radius: 70px;
-  margin: 0 120px 140px;
-  padding-top: 103px;
+  margin: 0 120px 129px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -480,4 +488,69 @@
   background-image: url(./images/btn__contact.svg);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.footer__navigation {
+  display: flex;
+  margin: 0 120px 109px;
+}
+.footer__social {
+  width: 326px;
+  margin-right: 83px;
+}
+.footer__logo{
+  margin-bottom: 12px;
+}
+.footer__social_list{
+  display: flex;
+  justify-content: space-between;
+  width: 181px;
+}
+.footer__social_subtitle{
+  margin-bottom: 29px;
+}
+.footer__list {
+}
+.footer__link {
+  color: #CDA274;
+}
+.footer__pages {
+  margin-right: 116px;
+  display: flex;
+  flex-direction: column;
+  height: 344px;
+  justify-content: space-between;
+}
+.footer__title {
+  font-size: 25px;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+.footer__explore {
+  margin-right: 109px;
+  display: flex;
+  flex-direction: column;
+  height: 344px;
+  justify-content: space-between;
+}
+.footer__contact {
+  width: 326px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 251px;
+}
+.footer__subtitle {
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+.footer__author {
+  border-top: 1px solid #E5E5E5;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.22px;
+  padding-top: 35px;
+  margin-bottom: 36px;
 }

@@ -11,68 +11,70 @@
   <div class="page">
       <header class="header">
         <img class="header__logo" src="./images/header__logo.svg" alt="Website logo">
-        <div class="header__menu">
-          <a class="header__menu_item link" href="#lead">Home</a>
-          <a class="header__menu_item link" href="#aboutUs">About Us</a>
-          <a class="header__menu_item link" href="#services">Services</a>
-          <a class="header__menu_item link" href="#projects">Pages</a>
-          <a class="header__menu_item link" href="#contact">Contact Us</a>
-        </div>
+        <nav class="header__menu">
+          <ul class="header__list list">
+            <li><a class="header__item link" href="#lead">Home</a></li>
+            <li><a class="header__item link" href="#aboutUs">About Us</a></li>
+            <li><a class="header__item link" href="#services">Services</a></li>
+            <li><a class="header__item link" href="#projects">Pages</a></li>
+            <li><a class="header__item link" href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
       </header>
       <main>
         <section id="lead" class="lead">
           <img class="lead__img" src="./images/promo__img.svg" alt="Image of the interior project">
-            <div class="lead__group">
-              <h1 class="lead__title title">Let's Create Your Dream Interior</h1>
-              <p class="lead__subtitle subtitle">The world needs innovators and problem solvers who turn challenges into greater opportunities.</p>
-              <button class="btn btn__type_lead btn__style_dark">Get Started</button>
-            </div>
+          <div class="lead__container">
+            <h1 class="lead__title title">Let's Create Your Dream Interior</h1>
+            <p class="lead__subtitle subtitle">The world needs innovators and problem solvers who turn challenges into greater opportunities.</p>
+            <button class="btn btn__type_lead btn__style_dark">Get Started</button>
+          </div>
         </section>
         <section id="services" class="services">
-          <div class="services__card">
+          <article class="services__card">
             <h3 class="services__title title">Interior Design</h3>
             <p class="services__subtitle subtitle">Enhancing the interior to achieve a healthier environment for the people using right space.</p>
             <a class="services__link link" href="#">
               <p class="services__subtitle_link subtitle">View More</p>
               <img class="services__img" src="./images/services__arrow.svg" alt="">
             </a>
-          </div>
-          <div class="services__card">
+          </article>
+          <article class="services__card">
             <h3 class="services__title title">Furniture</h3>
             <p class="services__subtitle subtitle">Movable articles that are used to make a room or building suitable for living or working.</p>
             <a class="services__link link" href="#">
               <p class="services__subtitle_link subtitle">View More</p>
               <img class="services__img" src="./images/services__arrow.svg" alt="">
             </a>
-          </div>
-          <div class="services__card">
+          </article>
+          <article class="services__card">
             <h3 class="services__title title">Flooring</h3>
             <p class="services__subtitle subtitle">Thin object any finished material applied over a floor structure to provide a walking surface.</p>
             <a class="services__link link" href="#">
               <p class="services__subtitle_link subtitle">View More</p>
               <img class="services__img" src="./images/services__arrow.svg" alt="">
             </a>
-          </div>
+          </article>
         </section>
         <section id="aboutUs" class="aboutUs">
           <img class="aboutUs__img" src="./images/aboutus__img.svg" alt="Image of the kitchen interior design">
-          <div class="aboutUs__container">
+          <article class="aboutUs__container">
             <h2 class="aboutUs__title title">We Tackle The Most Challenging Designs</h2>
             <p class="aboutUs__subtitle subtitle">The world needs innovators and problem solvers who turn challenges into greater opportunities. We have an insatiable curiosity about transformative trends challenging the status.</p>
-            <div class="aboutUs__contact">
+            <article class="aboutUs__contact">
               <img class="aboutUs__contact_img" src="./images/aboutus__contact_img.svg" alt="Handset image">
               <div class="about__list">
                 <p class="aboutUs__contact_subtitle subtitle">012345678</p>
                 <p class="aboutUs__contact_subtitle subtitle">Call Us Anytime</p>
               </div>
-            </div>
+            </article>
             <button class="btn btn__type_aboutUs btn__style_dark">Get Free Estimate</button>
-          </div>
+          </article>
         </section>
         <section class="reviews">
           <h2 class="reviews__title title">What the People Thinks About Interno</h2>
           <div class="reviews__group">
-            <div class="reviews__card">
+            <article class="reviews__card">
               <div class="reviews__contact">
                 <img class="reviews__contact_img" src="./images/reviews__img1.svg" alt="Participant's image">
                 <div class="reviews__list">
@@ -81,8 +83,8 @@
                 </div>
               </div>
               <p class="reviews__card_subtitle subtitle">We selected Interno interior because of rigorous design background & education.</p>
-            </div>
-            <div class="reviews__card">
+            </article>
+            <article class="reviews__card">
               <div class="reviews__contact">
                 <img class="reviews__contact_img" src="./images/reviews__img3.svg" alt="Participant's image">
                 <div class="reviews__list">
@@ -91,8 +93,8 @@
                 </div>
               </div>
               <p class="reviews__card_subtitle subtitle">The team exceeded our expectations and emerged as leaders of our project’s.</p>
-            </div>
-            <div class="reviews__card">
+            </article>
+            <article class="reviews__card">
               <div class="reviews__contact">
                 <img class="reviews__contact_img" src="./images/reviews__img2.svg" alt="Participant's image">
                 <div class="reviews__list">
@@ -101,60 +103,62 @@
                 </div>
               </div>
               <p class="reviews__card_subtitle subtitle">They balanced the architectural vision and the project realities beautifully.</p>
-            </div>
+            </article>
           </div>
         </section>
         <section class="companies">
-          <img class="companies__item" src="./images/companies__home.svg" alt="The logo of the company moder home">
-          <img class="companies__item" src="./images/companies__vg.svg" alt="The logo of the company interior stylevintage">
-          <img class="companies__item" src="./images/companies__brand.svg" alt="The logo of the company brand">
-          <img class="companies__item" src="./images/companies__nature.svg" alt="The logo of the company nature home">
-          <img class="companies__item" src="./images/companies__classic.svg" alt="The logo of the company classic design studio">
+          <ul class="companies__list list">
+            <li><img class="companies__item" src="./images/companies__home.svg" alt="The logo of the company moder home"></li>
+            <li><img class="companies__item" src="./images/companies__vg.svg" alt="The logo of the company interior stylevintage"></li>
+            <li><img class="companies__item" src="./images/companies__brand.svg" alt="The logo of the company brand"></li>
+            <li><img class="companies__item" src="./images/companies__nature.svg" alt="The logo of the company nature home"></li>
+            <li><img class="companies__item" src="./images/companies__classic.svg" alt="The logo of the company classic design studio"></li>
+          </ul>
         </section>
         <section id="projects" class="projects">
           <h2 class="projects__title title">Recent Projects</h2>
           <p class="projects__subtitle subtitle">With tools to make every part of your process more human and a support team excited to help you, getting started with us never been easier.</p>
           <div class="projects__group">
-            <figure class="projects__card">
+            <article class="projects__card">
               <img class="projects__img" src="./images/projects__art_modern.svg" alt="Images of art modern projects">
-              <figcaption class="projects__figcaption">
+              <div class="projects__figcaption">
                 <div class="projects__description">
-                  <h4 class="projects__card_title title">Winery Dry Creek Building</h4>
+                  <h3 class="projects__card_title title">Winery Dry Creek Building</h3>
                   <p class="projects__card_subtitle subtitle">Art Modern</p>
                 </div>
                 <button class="btn btn__type_recent btn__size_big"></button>
-              </figcaption>
-            </figure>
-            <figure class="projects__card">
+              </div>
+            </article>
+            <article class="projects__card">
               <img class="projects__img" src="./images/projects__mininmalist.svg" alt="Images of minimalist projects">
-              <figcaption class="projects__figcaption">
+              <div class="projects__figcaption">
                 <div class="projects__description">
-                  <h4 class="projects__card_title title">Creative Workplace Design</h4>
+                  <h3 class="projects__card_title title">Creative Workplace Design</h3>
                   <p class="projects__card_subtitle subtitle">Minimalist</p>
                 </div>
                 <button class="btn btn__type_recent btn__size_big"></button>
-              </figcaption>
-            </figure>
-            <figure class="projects__card">
+              </div>
+            </article>
+            <article class="projects__card">
               <img class="projects__img" src="./images/projects__modern.svg" alt="Images of modern projects">
-              <figcaption class="projects__figcaption">
+              <div class="projects__figcaption">
                 <div class="projects__description">
-                  <h4 class="projects__card_title title">Bedroom Interior Pot Work</h4>
+                  <h3 class="projects__card_title title">Bedroom Interior Pot Work</h3>
                   <p class="projects__card_subtitle subtitle">Modern</p>
                 </div>
                 <button class="btn btn__type_recent btn__size_big"></button>
-              </figcaption>
-            </figure>
-            <figure class="projects__card">
+              </div>
+            </article>
+            <article class="projects__card">
               <img class="projects__img" src="./images/projects__scandinavian.svg" alt="Images of Scandinavian projects">
-              <figcaption class="projects__figcaption">
+              <div class="projects__figcaption">
                 <div class="projects__description">
-                  <h4 class="projects__card_title title">Light Ambience Sepia Design</h4>
+                  <h3 class="projects__card_title title">Light Ambience Sepia Design</h3>
                   <p class="projects__card_subtitle subtitle">Scandinavian</p>
                 </div>
                 <button class="btn btn__type_recent btn__size_big"></button>
-              </figcaption>
-            </figure>
+              </div>
+            </article>
           </div>
         </section>
         <section class="success">
@@ -179,84 +183,84 @@
           <h2 class="blogs__title title">Recent Blogs</h2>
           <p class="blogs__subtitle subtitle">Get updates about our latest trends and techniques used in interior design project works.</p>
           <div class="blogs__group">
-            <div class="blogs__card">
+            <article class="blogs__card">
               <figure class="blogs__visual">
                 <img class="blogs__img" src="./images/blogs__kitchen.svg" alt="Kitchen Design">
                 <figcaption class="blogs__figcaption subtitle">Kitchen Design</figcaption>
               </figure>
-              <div class="blogs__container">
+              <article class="blogs__container">
                 <h4 class="blogs__card_title title">Residential Interior Designer In New York, USA</h4>
                 <div class="blogs__description">
                   <p class="blogs__card_subtitle subtitle">November 23, 2021</p>
                   <button class="btn btn__type_recent btn__size_small"></button>
                 </div>
-              </div>
-            </div>
-            <div class="blogs__card">
+              </article>
+            </article>
+            <article class="blogs__card">
               <figure class="blogs__visual">
                 <img class="blogs__img" src="./images/blogs__room.svg" alt="Living Room">
                 <figcaption class="blogs__figcaption subtitle">Living Room</figcaption>
               </figure>
-              <div class="blogs__container">
+              <article class="blogs__container">
                 <h4 class="blogs__card_title title">How To Choose The Best Wall Art & Decor House?</h4>
                 <div class="blogs__description">
                   <p class="blogs__card_subtitle subtitle">November 23, 2021</p>
                   <button class="btn btn__type_recent btn__size_small"></button>
                 </div>
-              </div>
-            </div>
-            <div class="blogs__card">
+              </article>
+            </article>
+            <article class="blogs__card">
               <figure class="blogs__visual">
                 <img class="blogs__img" src="./images/blogs__minimalist.svg" alt="Minimalist Interior">
                 <figcaption class="blogs__figcaption subtitle">Minimalist Interior</figcaption>
               </figure>
-              <div class="blogs__container">
+              <article class="blogs__container">
                 <h4 class="blogs__card_title title">Tips To Increase The Interior Value Of Your House</h4>
                 <div class="blogs__description">
                   <p class="blogs__card_subtitle subtitle">November 23, 2021</p>
                   <button class="btn btn__type_recent btn__size_small"></button>
                 </div>
-              </div>
-            </div>
-            <div class="blogs__card">
+              </article>
+            </article>
+            <article class="blogs__card">
               <figure class="blogs__visual">
                 <img class="blogs__img" src="./images/blogs__kitchen2.svg" alt="Kitchen Design">
                 <figcaption class="blogs__figcaption subtitle">Kitchen Design</figcaption>
               </figure>
-              <div class="blogs__container">
+              <article class="blogs__container">
                 <h4 class="blogs__card_title title">Best Solution For Any Office & Business Interior</h4>
                 <div class="blogs__description">
                   <p class="blogs__card_subtitle subtitle">November 23, 2021</p>
                   <button class="btn btn__type_recent btn__size_small"></button>
                 </div>
-              </div>
-            </div>
-            <div class="blogs__card">
+              </article>
+            </article>
+            <article class="blogs__card">
               <figure class="blogs__visual">
                 <img class="blogs__img" src="./images/blogs__room2.svg" alt="Living Room">
                 <figcaption class="blogs__figcaption subtitle">Living Room</figcaption>
               </figure>
-              <div class="blogs__container">
+              <article class="blogs__container">
                 <h4 class="blogs__card_title title">Get Solution For Building Construction Work</h4>
                 <div class="blogs__description">
                   <p class="blogs__card_subtitle subtitle">November 23, 2021</p>
                   <button class="btn btn__type_recent btn__size_small"></button>
                 </div>
-              </div>
-            </div>
-            <div class="blogs__card">
+              </article>
+            </article>
+            <article class="blogs__card">
               <figure class="blogs__visual">
                 <img class="blogs__img" src="./images/blogs__minimalist2.svg" alt="Minimalist Interior">
                 <figcaption class="blogs__figcaption subtitle">Minimalist Interior</figcaption>
               </figure>
-              <div class="blogs__container">
+              <article class="blogs__container">
                 <h4 class="blogs__card_title title">Attain The Best Finish For The Kitchen Cabinets</h4>
                 <div class="blogs__description">
                   <p class="blogs__card_subtitle subtitle">November 23, 2021</p>
                   <button class="btn btn__type_recent btn__size_small"></button>
                 </div>
-              </div>
-            </div>
+              </article>
+            </article>
           </div>
         </section>
         <section id="contact" class="contact">
@@ -265,7 +269,43 @@
           <button class="btn btn__type_contact btn__style_ligth">Connect With us</button>
         </section>
       </main>
-      <footer></footer>
+      <footer>
+        <nav class="footer__navigation">
+          <div class="footer__social">
+            <img class="footer__logo" src="./images/header__logo.svg" alt="Website logo">
+            <h3 class="footer__subtitle footer__social_subtitle subtitle">We are the leading architect and interior design firm in the world.</h3>
+            <ul class="footer__social_list list">
+              <li><a class="footer__link link" href="https://www.facebook.com"><img src="./images/logo__facebook.svg" alt="Facebook"></a></li>
+              <li><a class="footer__link link" href="https://www.twitter.com"><img src="./images/logo__twitter.svg" alt="Twitter"></a></li>
+              <li><a class="footer__link link" href="https://www.linkedin.com"><img src="./images/logo__linkedin.svg" alt="Linkedin"></a></li>
+              <li><a class="footer__link link" href="https://www.instagram.com"><img src="./images/logo__instagram.svg" alt="Instagram"></a></li>
+            </ul>
+          </div>
+          <ul class="footer__pages footer__list list">
+            <li><h3 class="footer__title title">Pages</h3></li>
+            <li><a class="footer__subtitle subtitle link" href="">Style Guide</a></li>
+            <li><a class="footer__subtitle subtitle link" href="">Protected</a></li>
+            <li><a class="footer__subtitle subtitle link" href="">Licenses</a></li>
+            <li><a class="footer__subtitle subtitle link" href="">Changelog</a></li>
+            <li><a class="footer__subtitle subtitle link" href="">404</a></li>
+          </ul>
+          <ul class="footer__explore footer__list list">
+            <li><h3 class="footer__title title">Explore</h3></li>
+            <li><a class="footer__subtitle subtitle link" href="">About Us</a></li>
+            <li><a class="footer__subtitle subtitle link" href="">Recent Blog</a></li>
+            <li><a class="footer__subtitle subtitle link" href="">Pricing Plan</a></li>
+            <li><a class="footer__subtitle subtitle link" href="">Our Projects</a></li>
+            <li><a class="footer__subtitle subtitle link" href="">Contact Us</a></li>
+          </ul>
+          <ul class="footer__contact footer__list list">
+            <li><h3 class="footer__title title">Contact</h3></li>
+            <li><p class="footer__subtitle subtitle">53, East Birchwood Ave. Brooklyn, New York 11201, USA.</p></li>
+            <li><p class="footer__subtitle subtitle">contact@interno.com</p></li>
+            <li><p class="footer__subtitle subtitle">(123) 456 - 7890</p></li>
+          </ul>
+        </nav>
+        <p class="footer__author subtitle">Copyright &copy; Interno | Designed by <a class="footer__link link" href="https://www.victorflow.com/"> Victorflow </a> Templates - Powered by <a class="footer__link link" href="https://webflow.com/"> Webflow </a></p>
+      </footer>
   </div>
 </body>
 </html>
