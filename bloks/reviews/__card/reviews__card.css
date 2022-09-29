@@ -1,0 +1,8 @@
+.reviews__card {
+  display: flex;
+  flex-direction: column;
+  width: 354px;
+  height: 287px;
+  background: #FFFFFF;
+  border-radius: 30px;
+}

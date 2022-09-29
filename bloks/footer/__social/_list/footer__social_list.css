@@ -1,0 +1,5 @@
+.footer__social_list{
+  display: flex;
+  justify-content: space-between;
+  width: 181px;
+}

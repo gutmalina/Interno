@@ -1,0 +1,10 @@
+.blogs__figcaption {
+  position: absolute;
+  bottom: 30px;
+  left: 24px;
+  background: #FFFFFF;
+  border-radius: 8px 8px 8px 0px;
+  font-size: 15px;
+  line-height: 160%;
+  padding: 9px 12px;
+}

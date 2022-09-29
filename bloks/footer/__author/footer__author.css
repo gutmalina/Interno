@@ -1,0 +1,9 @@
+.footer__author {
+  border-top: 1px solid #E5E5E5;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.22px;
+  padding-top: 35px;
+  margin-bottom: 36px;
+}

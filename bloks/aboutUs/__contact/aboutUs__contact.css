@@ -1,0 +1,5 @@
+.aboutUs__contact {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 49px;
+}

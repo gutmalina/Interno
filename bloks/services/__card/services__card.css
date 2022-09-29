@@ -1,0 +1,7 @@
+.services__card{
+  width: 400px;
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

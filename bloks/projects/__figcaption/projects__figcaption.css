@@ -1,0 +1,4 @@
+.projects__figcaption{
+  display: flex;
+  justify-content: space-between;
+}

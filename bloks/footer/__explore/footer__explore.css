@@ -1,0 +1,7 @@
+.footer__explore {
+  margin-right: 109px;
+  display: flex;
+  flex-direction: column;
+  height: 344px;
+  justify-content: space-between;
+}

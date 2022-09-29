@@ -1,0 +1,13 @@
+.btn__style_ligth {
+  background: #CDA274;
+  border: 2px solid #CDA274;
+  box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 1.1px;
+  color: #FFFFFF;
+  background-image: url(../../../../images/btn__contact.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}

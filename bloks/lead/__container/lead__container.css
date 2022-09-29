@@ -1,0 +1,8 @@
+.lead__container{
+  position: absolute;
+  left: 120px;
+  top: 188px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}

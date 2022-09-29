@@ -1,0 +1,6 @@
+.reviews__group {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 0 18px;
+  margin: 0 51px 121px;
+}

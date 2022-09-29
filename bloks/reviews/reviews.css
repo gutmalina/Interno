@@ -1,0 +1,7 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  margin: 0 120px 140px;
+  background: #F4F0EC;
+  border-radius: 70px;
+}

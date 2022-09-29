@@ -1,0 +1,8 @@
+.btn__type_recent {
+  background-image: url(../../../../images/btn__indicator.svg);
+  background-repeat: no-repeat;
+  background-size: 9px;
+  background-position: center;
+  background-color: #F4F0EC;
+  border-radius: 100px;
+}

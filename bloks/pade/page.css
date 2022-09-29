@@ -1,0 +1,8 @@
+.page{
+  margin: 0 auto;
+  padding: 0;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+}

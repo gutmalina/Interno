@@ -1,0 +1,12 @@
+.btn__style_dark{
+  background: #292F36;
+  border: 2px solid #292F36;
+  border-radius: 18px;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 1.1px;
+  color: #FFFFFF;
+  background-image: url(../../../../images/btn__arrow.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+}

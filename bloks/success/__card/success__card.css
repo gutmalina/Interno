@@ -1,0 +1,7 @@
+.success__card {
+  border-right: 1px solid #CDA274;
+  width: 303px;
+}
+.success__card:last-of-type {
+  border-right: 0;
+}
