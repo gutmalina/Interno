@@ -1,6 +1,10 @@
-# Interno - лендинг создания интерьеров
+## ***Landing Page - Interno создания интерьеров***
 
-Одностраничный сайт, посвященный дизайн-проектам интерьеров. Выполнен в статичной версии, для Decstop 1440px.
+Копия сайта, посвященного дизайн-проектам интерьеров. Выполнен в статичной версии, для Decstop 1440px.
+
+<p padding="0" align="center">~~~~~~~~~~</p>
+<a  href="https://gutmalina.github.io/Interno/" target="_blank" align="center"><img src="./readme/interno.gif" width="100%" alt="Демо"></a>
+<p padding="0" align="center">~~~~~~~~~~</p>
 
 ### Стэк:
 * CSS
